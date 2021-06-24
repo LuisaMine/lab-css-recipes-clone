@@ -1,0 +1,77 @@
+
+
+body {
+    margin: 0;
+    font: 'Helvetica', sans-serif;
+    padding: 5em;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+  display: block;
+
+}
+.nav-bar {
+    background-color: black;
+    padding: 14px 0;
+}
+
+.header {
+    background-position: 0 0;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+
+
+}
+.contenedor {
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
+
+}
+
+h1, body, html, main {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+
+li {
+  display: list-item;
+  text-align: cennter;
+ 
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.Ingredients-list {
+  margin-bottom: 40px;
+}
+
+.Ingredients-list > li {
+  padding-left: 1em
+    
+  
+}
+
+  .Ingredients-list > li:before {
+    content: "-";
+    padding-right: 3px;
+}
